@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aprendendo tags</title>
+</head>
+<body>
+  tags em html
+  <br>
+  <br>
+--> quebra de linha <--
+  <br>
+  <br>
+  ---> titulos <--
+  <h1>titulo</h1>
+  <h2>titulo2</h2>
+  <h3></h3>
+  <h4></h4>
+  <h5></h5>
+  <h6></h6>
+  
+--> paragrafos <--
+  <p>Se existe uma coisa que a grande maioria dos projetos
+   de desenvolvimento  tem em comum é que e eles possuem
+   dados sensíveis, como informações do banco de dados,
+   chaves de API's, Secret Keys entre outras informações
+   de configuração necessárias. </P>
+
+--> links e listas <--
+  
+<nav> 
+  <ul>
+    <li> <a href="home.html">nome</a></li>
+    <li><a href="mailto:millerallan17@gmail.com">millerallan17@gmail.com</a></li>
+    <li><a href ="https://www.realmadrid.com/pt" target ="_blank">RMD oficial</a><br>
+      <!-- usamos o _blank para fazer com que quando clicarmos no link,
+       ele seja aberto em outra aba-->
+    </li>
+  </ul>
+</nav>
+
+<nav> 
+  <ol>
+    <li>nome</li>
+    <li>contato</li>
+    <li>idade</li>
+  </ol>
+</nav>
+
+
+--> imagens <--
+<br>
+
+<img src = "as.jpg">
+<img src="sd.jpg" alt="paisagem">
+<img src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/imagem-em-lente-convexa.jpg" alt="paisagem">
+<br>
+<br>
+
+--> tabelas <--
+<br>
+<br>
+<table border = 1> 
+<thead>
+  <td><b>#</b> </td>
+  <td> <b>primeiro</b> </td>
+  <td><b>segundo</b> </td>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <td>joao</td>
+    <td>allan</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>bia</td>
+    <td>kevin</td>
+  </tr>
+</tbody>
+
+</table>
+<br><br>
+
+--> id e classes <--
+<br>
+<!-- usamos para ajudar a identificar elementos na pagina
+id = usa-se para uma unica tag.
+class = usa-se quando queremos reaproveitar tal elemento mais a adiante  
+-->
+<h2 id = "primeiro id" >teste de id</h2>
+<p class = "primeira classe">qualquer coisa dentro</p>
+
+<br><br>
+--> formularios <--
+<br><br>
+<form>
+<div>
+  <label for="name">nome
+  <input type="text" name="name" id="name">
+  </label>
+</div>
+  <br>
+<div>
+  <label for="email"> e-mail
+  <input type="email" name="email" id="email" required>
+  </label>
+</div>
+  <br>
+<div>
+  <label for="preco"> 
+  <input type="radio" name="preço" id="preço" value="150">r$150
+  </label>
+  <input type="radio" name="preço" id="preço" value="250"> r$250
+  <input type="radio" name="preço" id="preço"value ="350"> r$350
+</div>
+  <br>
+<div><
+  <label>
+  <input type="checkbox" name="produtos" id="produtos" value="150">r$150
+  </label>
+  <label>
+  <input type="checkbox" name="produtos" id="produtos" value="250">r$250
+  </label>
+  <label>
+  <input type="checkbox" name="produtos" id="produtos" value="350">r$350
+  </label>
+/div>
+  <!-- usamos para ajudar a identificar elementos na pagina
+id = usa-se para uma unica tag.
+class = usa-se quando queremos reaproveitar tal elemento mais a adiante  
+-->
+  
+<br><br> 
+  <button type="submit">enviar formulario</button>
+
+</form>
+
+
+
+
+</body>
+</html>
